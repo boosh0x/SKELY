@@ -1,7 +1,7 @@
 [project]
 name = "ethonline-hackathon-2025"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple pixel art game using Python and Vyper"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -13,3 +13,4 @@ dependencies = [
 
 [tool.moccasin.project]
 dependencies = ["snekmate"]
+src = "contracts"
