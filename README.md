@@ -1,5 +1,7 @@
 # Skely
 
+[**▶ Play Skely Online**](https://skely.xyz)  
+
 **Skely** is a small pixel-platformer built with [Pyxel](https://github.com/kitao/pyxel).  
 It was created as part of a personal learning project focused on **Python**, **Vyper**, and **game development**, as well as a prototype for connecting on-chain rewards to browser-based games.
 
@@ -18,3 +20,10 @@ It was created as part of a personal learning project focused on **Python**, **V
 - **Vyper 0.4.x** — Ethereum smart contract language  
 - **Moccasin / Cyfrin Updraft** — for contract deployment and testing  
 - **HTML + Web3.js** — browser integration and token claiming  
+
+
+### Future Plans
+- Integrate wallet connect and vastly improved token claim features
+- Improve entire game; larger level(s), better platforming, music, animation, and perhaps enemies
+- Add a leaderboard and live on-chain events
+- Expand the game world and introduce collectibles
