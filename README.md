@@ -1,5 +1,7 @@
 # Skely
 
+## IMPORTANT: Still working on Vyper contract! Will add soon. 
+
 [**▶ Play Skely Online**](https://skely.xyz)  
 
 **Skely** is a small pixel-platformer built with [Pyxel](https://github.com/kitao/pyxel).  
