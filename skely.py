@@ -1,7 +1,12 @@
 import pyxel
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 TILE = 8
 TRANSPARENT_COLOR = 0  # currently have it as 0 for black but might want to change if I update the colors
+WINCODE = os.getenv("wincode")
 
 COIN_IMG = 0
 COIN_UV = (32, 0)
@@ -246,8 +251,9 @@ class App:
         pyxel.blt(0, 0, 0, 0, 48, 160, 120, TRANSPARENT_COLOR)
         self._centered_text(40, "CONGRATS, YOU WON!", 11)
         self._centered_text(56, f"Score: {self.score}", 7)
-        self._centered_text(72, "ENTER/SPACE: Play Again", 7)
-        self._centered_text(84, "M: Menu   Q: Quit", 13)
+        self._centered_text(68, f"CODE: {WINCODE}", 10)   # <-- show the code
+        self._centered_text(82, "ENTER/SPACE: Play Again", 7)
+        self._centered_text(94, "M: Menu   Q: Quit", 13)
 
     def _centered_text(self, y, text, col):
         x = (pyxel.width - len(text) * 4) // 2
